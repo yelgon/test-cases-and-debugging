@@ -2,11 +2,9 @@ let verifyEquals = require('./verify-equals.js');
 
 // we need 5 test cases. I provided 1 input
 let inputs = [
-  "a"
 ]
 
 let outputs = [
-  5
 ]
 
 // Make this function return the first letter of the string that is passed to it. If the string does not have a first letter, return undefined
