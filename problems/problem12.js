@@ -2,11 +2,15 @@ let verifyEquals = require('./verify-equals.js');
 
 // we need 5 test cases. 
 let inputs = [
-  
+    [[0, 1, 2, 3], [1, 3, 4, 5]],
+    [[1,2,3], [1,2,3]],
+    [2,3]
 ]
 
 let outputs = [
-  
+    [0, 4, 5],
+    [],
+    undefined
 ]
 
 /*
@@ -19,12 +23,12 @@ uniqueElements([0,1,2,3], [1,3,4,5]); // [0,4,5]
 uniqueElements([1,2,3], [1,2,3]); // []
 uniqueElements(2,3); // undefined, not arrays
 */
-function f(arr1, arr2) {
-    
+function f(input) {
+
 }
 
 function runTest(i) {
-    if(i > inputs.length) throw new Error("You do not have enough test cases");
+    if (i > inputs.length) throw new Error("You do not have enough test cases");
     let expected = outputs[i];
     let actual = f(inputs[i]);
     verifyEquals(expected, actual)
