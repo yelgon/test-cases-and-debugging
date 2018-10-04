@@ -28,7 +28,7 @@ instead of:
 Lorem ipsumos dolor sit amet consectetur
  adipisicing elit. Magni quisquam
 
- even though there is a space before the a in adipisicing
+even though there is a space before the a in adipisicing
 */
 function f(str) {
     

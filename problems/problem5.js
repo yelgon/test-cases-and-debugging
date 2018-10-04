@@ -10,7 +10,8 @@ let outputs = [
 ]
 
 /*
-Make this function return the product of the two numbers that are passed to it. If one of the numbers is not passed, or if anything other than numbers are passed, return undefined.
+The input of the function is an array.
+Make this function return the product of the two numbers in the array. If one of the numbers is not passed, or if anything other than numbers are passed, return undefined.
 */
 function f(input) {
     

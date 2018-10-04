@@ -10,7 +10,8 @@ let outputs = [
 ]
 
 /*
-Make this function return the input string repeated as many times as specified. 
+The function input is an array as input. The first element of the array is a string. The second is a number.
+Make this function return the string repeated as many times as specified by the second element of the array. 
 If a negative number or zero is specified, return an empty string. If any invalid parameters are supplied return undefined.
 
 For example:
