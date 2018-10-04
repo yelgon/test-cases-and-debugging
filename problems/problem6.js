@@ -12,8 +12,8 @@ let outputs = [
 ]
 
 /*
-Use the operation argument to decide what this function will return. 
-If it's "add", return the sum of the two numbers. "sub" return their difference. "mult" return their product.  
+The function takes an array. The array has length 3. The first element of the array is a string that represents an operation.
+If the operation is "add", return the sum of the two other elements of the array. "sub" return their difference. "mult" return their product.  
 Anything else return undefined. 
 For example:
 f(["add", 10, 20]); // 30
