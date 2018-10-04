@@ -11,7 +11,15 @@ let outputs = [
 
 /*
 Make this function return the input string, reversed. For example "hello" would return "olleh" and "how are you" would return "uoy era woh".
-You must use a for loop for this exercise.
+You must use at least one for loop for this exercise.
+
+HINTS: 
+ - Create an empty array
+ - Add each character of the string to that empty array (use the array method push). You'll need to use a for loop
+ - Create another empty array
+ - Add each character of the string to new empty array in reverse order
+ - Convert that array back to a string (use the join array method)
+ 
 */
 function f(str) {
     

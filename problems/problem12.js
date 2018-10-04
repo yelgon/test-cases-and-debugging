@@ -22,6 +22,9 @@ For example:
 uniqueElements([0,1,2,3], [1,3,4,5]); // [0,4,5]
 uniqueElements([1,2,3], [1,2,3]); // []
 uniqueElements(2,3); // undefined, not arrays
+
+HINTS: 
+   - Use a for loop inside another for loop
 */
 function f(input) {
 

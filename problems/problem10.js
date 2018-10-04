@@ -15,6 +15,10 @@ Make this function return the input string, capitalized. You must use a for loop
 f("hello world"); // Hello World
 f("ALL YOUR BASE ARE BELONG"); // All Your Base Are Belong
 
+HINT:
+   - Use a for loop to capitalize the letters one by one
+   - Use the toUpperCase string method
+
 */
 function f(str) {
     

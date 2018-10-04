@@ -12,6 +12,10 @@ let outputs = [
 /*
 Make this function return the longest word in the input string. If the input string is empty then return an empty string.
 If multiple words have the same length, return the last one that matches.
+
+HINTS: 
+   - You'll need to use the split string method
+   - A for loop might be helpful
 */
 function f(str) {
     
