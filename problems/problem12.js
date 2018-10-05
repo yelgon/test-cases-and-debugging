@@ -19,7 +19,7 @@ If there are no unique elements return an empty array.
 If the inputs are anything other than arrays, return undefined. 
 For example:
 
-uniqueElements([[0,1,2,3], [1,3,4,5]]); // [0,4,5]
+uniqueElements([[0,1,2,3], [1,3,4,5]]); // [0,2,4,5]
 uniqueElements([[1,2,3], [3,2,1]]); // []
 uniqueElements(2); // undefined, not an array
 
