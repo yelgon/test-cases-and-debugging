@@ -27,7 +27,7 @@ function f(arr) {
 function runTest(i) {
     let expected = outputs[i];
     let input = inputs[i];
-    let actual = f(input[0], input[1]);
+    let actual = f(input);
     verifyEquals(expected, actual)
 }
 
