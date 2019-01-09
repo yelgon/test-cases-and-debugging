@@ -18,7 +18,7 @@ For example:
 
 f(["foo", 3]) // "foofoofoo"
 f(["fo", 3]) // "fofofo"
-f(["foo", -1]) // undefined
+f(["foo", -1]) // ""
 */
 function f(arr) {
     
