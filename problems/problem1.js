@@ -1,4 +1,4 @@
-let verifyEquals = require('./verify-equals.js');
+let verifyEquals = require('./verify-equals.js'); // this line imports the verifyEquals function from the verify-equals.js file
 
 // we need 5 test cases. I provided 1 input
 let inputs = [
@@ -15,7 +15,7 @@ function f(str) {
 function runTest(i) {
     let expected = outputs[i];
     let actual = f(inputs[i]);
-    verifyEquals(expected, actual)
+    verifyEquals(expected, actual) // verifyEquals is imported above
 }
 
 runTest(0);
