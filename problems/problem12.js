@@ -15,6 +15,7 @@ let outputs = [
 
 /*
 Make this function return the elements that are unique to array1 and array2.
+An element is unique if it only appears once.
 If there are no unique elements return an empty array.
 If the inputs are anything other than arrays, return undefined. 
 For example:
