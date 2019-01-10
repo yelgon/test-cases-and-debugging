@@ -8,7 +8,7 @@ let inputs = [
 ]
 
 let outputs = [
-    [0, 4, 5],
+    [0, 2, 4, 5],
     [],
     undefined
 ]
