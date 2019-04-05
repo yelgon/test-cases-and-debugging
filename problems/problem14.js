@@ -1,13 +1,9 @@
 let verifyEquals = require('./verify-equals.js');
 
-// we need 5 test cases. 
-let inputs = [
-  
-]
+// we need 5 test cases.
+let inputs = [];
 
-let outputs = [
-  
-]
+let outputs = [];
 
 /*
 Make this function return the input string wrapped to 40 characters per line. 
@@ -30,15 +26,14 @@ Lorem ipsumos dolor sit amet consectetur
 
 even though there is a space before the a in adipisicing
 */
-function f(str) {
-    
-}
+function f(str) {}
 
+//This function runs a test. You do not need to change any code under here
 function runTest(i) {
-    if(i > inputs.length) throw new Error("You do not have enough test cases");
-    let expected = outputs[i];
-    let actual = f(inputs[i]);
-    verifyEquals(expected, actual)
+  if (i > inputs.length) throw new Error('You do not have enough test cases');
+  let expected = outputs[i];
+  let actual = f(inputs[i]);
+  verifyEquals(expected, actual);
 }
 
 runTest(0);
@@ -47,4 +42,4 @@ runTest(2);
 runTest(3);
 runTest(4);
 
-console.log("All tests passed for " + __filename)
+console.log('All tests passed for ' + __filename);
