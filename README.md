@@ -1,10 +1,12 @@
 # Instructions
 
+First, fork this repository, then follow the instructions
+
 ![clone](clone.png)
 
 1. Copy the link to the repository by clicking on the button.
 2. Open the terminal and make sure you are in the Decode folder (the one where you have the html-css-workshop folder)
-3. Do the following commands (you need to replace LINK_YOU_COPIED with the link you copied):
+3. Do the following commands (you need to replace LINK_YOU_COPIED with the link for your forked repository):
    - git clone LINK_YOU_COPIED
    - cd test-cases-and-debugging
    - code .
