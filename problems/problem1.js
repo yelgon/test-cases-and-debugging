@@ -5,7 +5,7 @@ let inputs = ['max'];
 
 let outputs = ['m'];
 
-// Make this function return the first character of the string that is passed to it. If the string does not have a first letter, return undefined
+// Make this function return the first character of the string that is passed to it. If the string does not have a first character, return undefined
 function f(str) {
   return str.charAt(0);
 }
