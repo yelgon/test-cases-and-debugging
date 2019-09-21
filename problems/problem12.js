@@ -22,13 +22,37 @@ HINTS:
     - Once to get the unique elements in the first array
     - A second time to get the unique elements in the second array
 */
-function f(input) {}
+function getUniqueElements(arr1, arr2) {
+  const uniqueElements = [];
+  for (let i = 0; i < arr1.length; i++) {
+    const curr = arr1[i];
+    let isUnique = true;
+    for (let j = 0; j < arr2.length; j++) {
+      const other = arr2[j];
+      if (curr === other) {
+        isUnique = false;
+        break;
+      }
+    }
+    if (isUnique) uniqueElements.push(curr);
+  }
+  return uniqueElements;
+}
+
+function f(input) {
+  const arr1 = input[0];
+  const arr2 = input[1];
+  return getUniqueElements(arr1, arr2).concat(getUniqueElements(arr2, arr1));
+}
 
 //This function runs a test. You do not need to change any code under here
 function runTest(i) {
   if (i >= inputs.length) throw new Error('You do not have enough test cases');
+  console.log('inputs', inputs[i]);
   let expected = outputs[i];
+  console.log(expected);
   let actual = f(inputs[i]);
+  console.log(actual);
   verifyEquals(expected, actual);
 }
 
