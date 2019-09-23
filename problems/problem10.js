@@ -15,7 +15,15 @@ HINT:
    - Use a for loop to capitalize the words one by one
    - Use the toUpperCase string method
 */
-function f(str) {}
+function f(str) {
+  const words = str.split(' ');
+  let capitalizedWords = [];
+  for (let i = 0; i < words.length; i++) {
+    const capitalizedWord = words[i].charAt(0).toUpperCase() + words[i].slice(1).toLowerCase();
+    capitalizedWords.push(capitalizedWord);
+  }
+  return capitalizedWords.join(' ');
+}
 
 //This function runs a test. You do not need to change any code under here
 function runTest(i) {

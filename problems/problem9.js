@@ -16,7 +16,15 @@ HINTS:
    - You'll need to use the split string method
    - A for loop might be helpful
 */
-function f(str) {}
+function f(str) {
+  const words = str.split(' ');
+  let longest = '';
+  for (let i = 0; i < words.length; i++) {
+    if (longest.length <= words[i].length) longest = words[i];
+  }
+  return longest;
+}
+
 
 //This function runs a test. You do not need to change any code under here
 function runTest(i) {

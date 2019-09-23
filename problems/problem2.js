@@ -6,7 +6,11 @@ let inputs = [];
 let outputs = [];
 
 // Make this function return the last character of the string that is passed to it. If the string does not have a last character, return undefined
-function f(str) {}
+function f(str) {
+  if (str.charAt(str.length - 1) === '') return undefined;
+  return str.charAt(str.length - 1);
+}
+
 
 //This function runs a test. You do not need to change any code under here
 function runTest(i) {

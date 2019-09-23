@@ -14,7 +14,11 @@ f(["", 4]); // undefined
 f(["abc", 0]); // a
 
 */
-function f(arr) {}
+function f(arr) {
+  const letter = arr[0].charAt(arr[1]);
+  if (letter === '') return undefined;
+  return letter;
+}
 
 //This function runs a test. You do not need to change any code under here
 function runTest(i) {

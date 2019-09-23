@@ -15,7 +15,14 @@ HINTS:
  - Loop over the array of split characters in reverse order and fill the empty array by pushing each character into it
  - Convert the filled array into a string (use the join method) and return it
 */
-function f(str) {}
+function f(str) {
+  let reversed = '';
+  for (let i = str.length - 1; i >= 0; i--) {
+    reversed += str.charAt(i);
+  }
+  return reversed;
+}
+
 
 //This function runs a test. You do not need to change any code under here
 function runTest(i) {
